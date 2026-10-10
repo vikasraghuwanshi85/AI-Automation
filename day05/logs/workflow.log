@@ -1,0 +1,29 @@
+2026-10-10 16:22:26,658 | INFO | Workflow started for order 41
+2026-10-10 16:23:01,733 | ERROR | Workflow failed for order 41: WooCommerce API request timed out
+2026-10-10 16:23:27,421 | INFO | Workflow started for order 41
+2026-10-10 16:23:40,118 | INFO | HTTP Request: GET https://localhost/wordpress/wp-json/wc/v3/orders/41 "HTTP/1.1 200 OK"
+2026-10-10 16:23:40,120 | INFO | Order 41 action: prepare_fulfillment
+2026-10-10 16:23:58,099 | INFO | HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-10 16:23:58,100 | INFO | Workflow completed for order 41
+2026-10-10 16:26:07,712 | INFO | Workflow started for order 35
+2026-10-10 16:26:10,804 | INFO | HTTP Request: GET https://localhost/wordpress/wp-json/wc/v3/orders/35 "HTTP/1.1 200 OK"
+2026-10-10 16:26:10,806 | INFO | Order 35 action: await_payment
+2026-10-10 16:26:19,546 | INFO | HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-10 16:26:19,547 | INFO | Workflow completed for order 35
+2026-10-10 16:27:00,279 | INFO | Workflow started for order 39
+2026-10-10 16:27:02,908 | INFO | HTTP Request: GET https://localhost/wordpress/wp-json/wc/v3/orders/39 "HTTP/1.1 200 OK"
+2026-10-10 16:27:02,917 | INFO | Order 39 action: priority_fulfillment_review
+2026-10-10 16:27:12,503 | INFO | HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-10 16:27:12,503 | INFO | Workflow completed for order 39
+2026-10-10 18:21:02,491 | INFO | Workflow started for order 37
+2026-10-10 18:21:04,458 | INFO | HTTP Request: GET https://localhost/wordpress/wp-json/wc/v3/orders/37 "HTTP/1.1 200 OK"
+2026-10-10 18:21:04,462 | INFO | Order 37 action: priority_fulfillment_review
+2026-10-10 18:21:23,936 | INFO | HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-10 18:21:23,937 | INFO | Workflow completed for order 37
+2026-10-10 18:21:23,937 | INFO | Workflow completed for order 37
+2026-10-10 18:26:17,294 | INFO | Workflow started for order 43
+2026-10-10 18:26:19,200 | INFO | HTTP Request: GET https://localhost/wordpress/wp-json/wc/v3/orders/43 "HTTP/1.1 200 OK"
+2026-10-10 18:26:19,201 | INFO | Order 43 action: no_action
+2026-10-10 18:26:30,265 | INFO | HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-10 18:26:30,266 | INFO | Workflow completed for order 43
+2026-10-10 18:26:30,266 | INFO | Workflow completed for order 43

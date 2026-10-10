@@ -1,7 +1,5 @@
-
 import json
 import os
-
 from dotenv import load_dotenv
 from ollama import Client
 
